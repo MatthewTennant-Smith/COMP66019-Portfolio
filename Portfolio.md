@@ -30,7 +30,7 @@ A haptic pen was also considered as a form to design a virtual prototype that ac
 
 With a typical CAD approach being selected to design the prototype, different software were considered. Fusion360 is a popular modelling software with many tools available, such as a generative design allowing parameters to be selected and the software creates the model albeit sometimes with errors in the design. Fusion360 is typically used in industry to create ridged models such as a motorcycle engine (Angamuthu K., et al.,2021). This could be used for structural parts of the design such as the torso which will ultimately be covered, however making other parts would be more challenging to create in a natural aesthetic such as hands (Song, P.P., Qi Y.M. and Cai D.C., 2018). This can be somewhat fixed with the use of textures available with great availability to completely customise textures (figure 1) aiding the development of a more organic model. Ultimately this was not chosen due to the necessity of an organic looking Yoda model and with the covering making the use of the texture all but obsolete.
 
-![](RackMultipart20230526-1-6wrb00_html_763a06773a3d76d7.jpg)
+![alt_text](https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/Images/Fusion360.png)
 
 Figure 1 – foot rendered in Fusion360
 
