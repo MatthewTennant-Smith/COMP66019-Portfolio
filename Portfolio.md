@@ -24,7 +24,7 @@ Once the animatronic had been conceptualised the next stage was the design devel
 
 3D scanning is a technique commonly used in industry to get hyper-realistic features by scanning an existing item into software via optical recognition markers that are placed on the object and using those makers to scan in geographic marks for the object (He G. et al., 2022). This allows a backtracking to take a 3D object and create a digital rendition of that object that can then be modified in a way that suits the development of the new model. This technique could be utilised to generate an item such as Yoda's head that by itself is a technically difficult design to make due to the complexity of the mould for his head; This was considered but a model for Yoda's head was available as an open-source 3D scanned model (Bmoshe, 2011), so due to time constraints the previously scanned model was used to then adjust to the right scale.
 
-"Link to Head Stl file"
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/yoda%20head.stl
 
 A haptic pen was also considered as a form to design a virtual prototype that acts as modelling software that utilises a stylus style pen to carve the design into a cube structure, this allows a more natural and fluent modelling process but as a result can be difficult to use without experience and was ultimately decided against due to little experience in the tool ('3D Pen Delivers Force Feedback' 1998). As such a CAD approach was decided.
 
