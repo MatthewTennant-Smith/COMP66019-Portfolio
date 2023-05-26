@@ -44,19 +44,20 @@ Each part was designed individually as an initial iteration, with the torso havi
 
 The hands and feet were then designed in conjunction with mesh mixer to aid with the organic aesthetics of the character like parts that would be visible to ensure that the design looked natural. The hand was created initially and then mirrored to create an identical copy with a mirrored effect for a left and right hand to reduce modelling time in creating two separate hands, the feet were copied as identical and not mirrored as Yoda's feet were the same for each leg.
 
-"stl file for hands "
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/_RightHand.stl
 
-"stl file for feet " -
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/foot.stl
 
 The next part designed was the shoulder which left space for the servo's to be fit into to ensure a secure fit that would allow the functionality of the turning within the model and the scanned head was cropped and had a hole placed in the bottom for the neck servo motor. The last piece designed was arm which was designed as a simple arm piece.
 
-"upper torso stl file" Y
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/yoda%20pads.stl
 
-" hinge 1 stl file " Y
+
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/yoda%20arm%20unhinged.stl
 
 This was then iterated through again to adjust the sizes of the upper torso to match the servo motor size and the rest of the pieces were adjusted to match that size and the Arduino board size, and in a third iteration the torso and feet pieces were combined into a singular piece to make assembly easier later.
 
-"Torso and feet stl file" Y
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/yoda%20bottom.stl
 
 Within this stage no physical model was created due to time constraints however, reflecting on this stage; using a physical prototype might have allowed better insight into what changes could been made within the design and been able to see if the balancing and counterweighting would have been able to let the model stand without a base which could have made the Yoda function better as a model. Ultimately this wasn't decided due to time but could be considered for a different project. Another change that could be considered is utilising blender as the modelling platform due to its benefits and tools in organic modelling which may have allowed a better design of pieces
 
@@ -68,7 +69,7 @@ Once the initial design had been created, the hinge was then discussed as to whe
 
 Once the hinge joint was decided the arm was iterated through another design where the hinge was added in place of the existing arm piece and scaled to a proportionate size.
 
-" hinge stl file"
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/final%20yoda%20hinge.stl
 
 Due to the hinge joint selected, the only way to generate the physical hinge is via 3D printing making it so that is a necessary inclusion within the generation of the physical images. Within industry there are several techniques used and during the project several of these were investigated to evaluate the best methods available for the project.
 
@@ -80,7 +81,7 @@ Overall 3D printing was decided to be used for each of the STL files. 3D printin
 
 Due to all the files being 3D printed they were moved into a single STL file to be printed overnight to save on time.
 
-" ALL STL FILE "
+https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/STL%20viewer/printable.stl
 
 Before printing the material was first needed to be selected, Wood would be hard to 3D print and would have to be a fused wood with plastic creating a sort of paste type material to set in the shape of the material providing a sustainable biodegradable material. This was ultimately not selected due to potential splintering when trying to screw the wood together ruining material. Metal was also considered but ultimately decided against due to little access to metals and having difficulty with applying to the scope of the prototype. Typically metals such as aluminium will be used for animatronics in conjunction with hydraulics such as the use for the Spinosaurus (Goldman M., 2001). Plastics are broadly available within the project; each having their own advantages. ABS is the most common implementation for industry models being a strong, durable plastic and having the ability to work with mechanical properties. Typical instances of ABS include Lego statues which are in an uncontrolled environment and so the plastic needs to be strong (Turner A., Arnold R. and Williams T., 2020). The notable downsides of ABS are that it is incredibly toxic and needs to be manufactured in a controlled environment due to toxic fumes emitted during production make it a difficult material to produce in this project. Thermoplastic polyurethane (TPU) is a rubber-based plastic was also considered due to the nature of the plastic having a similar texture to Yoda which is typically a silicon-based puppet, TPU is typically used in industry for rubbery materials such as tires (Jiang J. _et al._, 2021). The rubbery texture of the plastic makes it hard to engrave, struggling to make use of the wrinkles in Yoda's head as well as having the added layer being a requirement the TPU would not meet that criterion and consequently would not be fitting for Yoda. PLA is a notable plastic typically used in prototyping due to its cheapness (Sadeghi Ghari H. and Nazockdast H., 2022). PLA is a corn-starch-based plastic that is biodegradable and a somewhat durable material. Its main disadvantage is with it being not a completely durable and being somewhat brittle and vulnerable to the environment, however this will not be an issue due to the model being kept in a controlled environment making it the most suitable approach for Yoda.
 
@@ -92,21 +93,21 @@ Assembly
 
 Once the files had been received by the printer the first piece to be printed was the head, this was printed using supports and rafts, with the supports being the additional pieces of plastic printed along floating aspects such as the ears to ensure the plastic didn't droop during printing and to keep structural support, the raft is a sticky layer at the bottom to support the piece and ensure it is held in place while printing (figure 2). This allows the piece to be printed optimally and not skewed. Once this was printed successfully; other pieces were printed.
 
-![](RackMultipart20230526-1-6wrb00_html_35b139ac7c788e45.jpg)
+![alt_text](https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/Images/Supports%20and%20rafts.png)
 
 Figure 2 – supports and rafts
 
 Once each part was printed the assembly stage began where the parts were screwed with the torso being screwed to the Arduino board (figure 3), with the speaker added on for audio capabilities. The three servo motors were added to the shoulder pads and the wires thread through (figure 4) to complete the main chassis of Yoda, the hands were then attached to the arms and the arms placed through the servo motors and the head attached to complete the main aesthetic for Yoda (figure 5).
 
-![](RackMultipart20230526-1-6wrb00_html_72447a3621b52eb3.jpg)
+![alt_text](https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/Images/Torso.png)
 
 Figure 3 – Arduino board screwed in
 
-![](RackMultipart20230526-1-6wrb00_html_944e38933b4ef90e.png)
+![alt_text](https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/Images/Shoulders.png)
 
 Figure 4 – servo motors added to shoulders
 
-![](RackMultipart20230526-1-6wrb00_html_ccf6f6775c5fe469.jpg)
+![alt_text](https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/Images/assembled.png)
 
 Figure 5 – finished Yoda body.
 
@@ -116,19 +117,29 @@ Once the model was assembled it was apparent that the left arm hinge was rather 
 
 The final stage was to finish up the model with cosmetic touch-ups, this was decided to be with a green colour scheme as well as a robe to cover the Arduino to make the animatronic look good, the colour scheme also gives a realistic appearance as well (figure 6). The material selection for this was not an important consideration and as such a simple test robe was designed out of cloth to give the appearance of the robes the character wears as well as adding a lightsabre and his signature cane. The only point of consideration left was the colour as although a colour had already been chosen it was not a complete match to Yoda and was relatively dark comparatively to his proper skin colour, as such this was revised, and a new lighter green was applied as the colour for Yoda.
 
-![](RackMultipart20230526-1-6wrb00_html_c676eee7d4362839.png)
+![alt_text](https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/Images/Aesthetics.png)
 
 Figure 6 – Yoda with aesthetic touches
 
 Once the green colouring was adjusted the final model was ready with an acrylic stand laser cut to screw to the Yoda to stop the model from falling over, once this stand was added the model was finished with the aesthetic touches (figure 7).
 
-![](RackMultipart20230526-1-6wrb00_html_2a49ff36e72a8bf6.png)
+![alt_text](https://github.com/MatthewTennant-Smith/COMP66019-Portfolio/blob/main/Images/finished%20model.png)
 
 Figure 7 – final Yoda model
 
 This stage was a success with the colouring being adjusted well, and the finished covering being very appropriate for the model, reflecting back latex was an option for the skin to give a realistic texture to the Yoda model, if given more time this approach would have allowed a more realistic Yoda, with latex being common in industry for human and non-human animatronics including fish (Fate K., 2014). Without the latex whilst the model still looks very professional it lacks that distinct Yoda aesthetic with the skin and looks somewhat plasticky compared to a more natural aesthetic that could have been possible with latex.
 
 Overall, this project was a large success and followed the journey from the concept and design of the materials through to the virtual development of the model and then the physical printing of the Yoda and assembly with the finishing touches. The prototype model itself was a success in its creation as it has a hinge as well as aesthetic touches as well as bonus motorised capabilities with turning of the head and swinging arms. Generation of the model could have been possible between both blender and fusion 360 with the life-like parts being modelled in blender and the structural components in fusion360 as a different approach if 123d was not the chosen method; potentially optimising the standards of the parts and the design. One key aspect that would have been changed is the material to ABS; whilst PLA was an effective for prototyping, the durability of ABS would have aided the toughness of the model and its ability to be kept in an uncontrolled environment as well as the inclusion of latex as a finishing design choice to make Yoda look more realistic. Looking forward, this model could potentially be scaled up and whilst that would require different hardware due to the servo motors and joints, motion capture could be potentially used in conjunction with hydraulics to design a full-scale model as seen within entertainment parks such as Disney. To conclude, the project was a large success aiming the key parts of the design prototype with room to improve and be developed further upon to get the model ready for a more open environment.
+
+
+
+
+
+
+
+
+
+
 
 REFERENCES:
 
@@ -172,7 +183,11 @@ _Turner, A., Arnold, R. and Williams, T. (2020) 'Weathering and persistence of p
 
 _Fate, K. (2014) BRIEF: Singing fish spooks would-be burglar. Washington: Tribune Content Agency LLC._
 
-Appendix:
+
+
+
+
+Appendices
 
 Appendix 1 - Requirements
 
